@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../style/css/style.css">
+
+    <title>Criador JSON</title>
+</head>
+<body>
+    <header>
+        <h1>Criador JSON</h1>
+    </header>
+    <hr>
+    <div class="app">
+        <form>
+            <input type="file" name="file" id="file">
+            <label for="name">Nome </label>
+            <input type="text" name="name" id="name">
+            <label for="age">Idade </label>
+            <input type="number" name="age" id="age">
+            <section>
+                <div class="gender">
+                    <fieldset>
+                        <legend>Gênero </legend>
+                        <div class="genderOptions">
+                            <div>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Feminino</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other">Outro</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </section>
+            <label for="filename">Nome do Arquivo </label>
+            <div class="filenameBox">
+                <input type="text" name="filename" id="filename">.JSON
+            </div>
+            <div class="buttonBox">
+                <a href="#" class="button">Criar</a>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
